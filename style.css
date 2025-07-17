@@ -1,15 +1,9 @@
-/* *{
-  border: 2px solid red;
-} */
-
 body {
   font-family: Arial, sans-serif;
   background: #f7f7f7;
   margin: 0;
   color: white;
-  padding:0;
-
-
+  padding: 0;
 }
 
 header {
@@ -19,7 +13,6 @@ header {
   text-align: center;
 }
 
-
 section {
   color: black;
   background: #fff;
@@ -27,9 +20,8 @@ section {
   border: 1px solid #ccc;
   border-left: 8px solid #003366;
   border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 
 section:nth-child(odd) {
   border-left-color: #cc0000;
@@ -38,11 +30,13 @@ section:nth-child(even) {
   border-left-color: #ff9900;
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: 1.5rem;
 }
 
-ul li, ol li {
+ul li,
+ol li {
   margin: 0.5rem 0;
 }
 
@@ -53,83 +47,50 @@ img {
   border: 1px solid #ccc;
 }
 
-footer {
-  text-align: center;
-  font-size: 0.9rem;
-  color: #666;
-  padding: 1rem;
-  background: #e0e0e0;
+#box1 {
+  padding: 10px;
+  border: solid 1px green;
 }
 
-/* @media(max-width:600px) {
-  body {
-    font-size: 1rem;
-  }
-  header, .section-header {
-    padding: 0.5rem;
-  }
-  .section-content {
-    padding: 0.75rem;
-  }
-  style {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        } */
-  .box-wrapper {
-            height: 95vh;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-        }
+#box2 {
+  padding: 8px;
+  border: solid 1px blue;
+}
 
-        #box1 {
-            padding: 10px;
-            border: solid 1px green
+#box3 {
+  padding: 10px;
+  border: solid 1px green;
+}
 
-        }
+#box4 {
+  flex-grow: 1;
+  border: solid 1px orange;
+}
 
-        #box2 {
-            padding: 8px;
-            border: solid 1px blue
-        }
+#box5 {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
 
-        #box3 {
-            padding: 10px;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: row;
-            border: solid 1px green
-        }
+#box6 {
+  flex-grow: 1;
+  margin: 0 8px;
+  border: solid 1px red;
+}
 
-        #box4 {
-          
-            flex-grow:1;
-            border: solid 1px orange
-        }
+#box7 {
+  margin-top: 8px;
+}
 
-        #box5 {
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-        } 
-        
-  #box6 {
-            flex-grow: 1;
-            margin: 0 8px;
-            border: solid 1px red;
-        }
+#box8 {
+  flex-grow: 1;
+  border: solid 1px black;
+}
 
-        #box7 {
-            margin-top: 8px
-        }
-
-        #box8 {
-            flex-grow: 1;
-            border: solid 1px black
-        }
-
-        h2{
-          color: #cc0000;
-        }
+footer {
+ background: #003366;
+  color: red;
+  padding: 1rem;
+  text-align: center;
+}
